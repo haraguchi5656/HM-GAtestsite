@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTM GA4 Test - Content</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px 40px;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        .section p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.8;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-right: 10px;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .btn-secondary:hover {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>テストコンテンツ</h1>
+        
+        <div class="section">
+            <h2>GTM & GA4 検証用ページ</h2>
+            <p>このページはGoogle Tag Manager と Google Analytics 4 の動作確認用です。ボタンクリックやページ遷移をトラッキングします。</p>
+        </div>
+
+        <div class="section">
+            <h2>テスト要素</h2>
+            <p>以下のボタンをクリックしてイベントトラッキングをテストしてください。</p>
+            <button class="btn" data-event="content_test_button">テストボタン</button>
+            <button class="btn btn-secondary" data-event="content_secondary_button">セカンダリボタン</button>
+        </div>
+
+        <div class="section">
+            <a href="index.html" class="btn btn-secondary" data-event="content_to_landing">← ランディングページへ戻る</a>
+        </div>
+    </div>
+</body>
+</html>
