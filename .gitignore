@@ -1,0 +1,63 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.editorconfig
+
+# Node.js (if future build process is added)
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+build/
+
+# Python / Virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log
+
+# OS temporary directories
+.Trash/
+$RECYCLE.BIN/
+
+# Compressed files (development only)
+*.zip
+*.tar
+*.gz
+
+# System files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# GitHub Pages / Jekyll (if used in future)
+_site/
+.sass-cache/
+.jekyll-cache/
+Gemfile.lock
+
+# Ruby (if future Jekyll use)
+.bundle/
+
+# Environment variables
+.env
+.env.local

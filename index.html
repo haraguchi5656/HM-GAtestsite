@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>西暦和暦対照表 - GTM GA4 Test</title>
@@ -13,6 +12,7 @@
 	<meta property="og:url" content="https://haraguchi5656.github.io/HM-GAtestsite/index.html">
 	<meta property="og:type" content="website">
 	<meta name="twitter:card" content="summary_large_image">
+	<link rel="stylesheet" href="assets/style.css">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -21,151 +21,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TXDWCBH2');</script>
 <!-- End Google Tag Manager -->
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            line-height: 1.6;
-        }
-        
-        /* トップバナー */
-        header {
-            background-color: #2c3e50;
-            color: white;
-            padding: 30px 20px;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        header h1 {
-            font-size: 32px;
-            font-weight: 400;
-            letter-spacing: 2px;
-        }
-        
-        /* メインコンテナ */
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            background-color: white;
-            min-height: calc(100vh - 200px);
-        }
-        
-        .section {
-            margin-bottom: 50px;
-        }
-        
-        .section h2 {
-            font-size: 24px;
-            font-weight: 600;
-            color: #2c3e50;
-            margin-bottom: 25px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #bdc3c7;
-        }
-        
-        .section p {
-            font-size: 16px;
-            color: #555;
-            margin-bottom: 20px;
-            line-height: 1.8;
-        }
-        
-        /* テーブルスタイル */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 15px;
-        }
-        
-        table thead {
-            background-color: #34495e;
-            color: white;
-        }
-        
-        table th {
-            padding: 12px;
-            text-align: center;
-            font-weight: 600;
-        }
-        
-        table td {
-            padding: 12px;
-            text-align: center;
-            border-bottom: 1px solid #ecf0f1;
-        }
-        
-        table tbody tr:hover {
-            background-color: #f9f9f9;
-        }
-        
-        table tbody tr:nth-child(even) {
-            background-color: #fafafa;
-        }
-        
-        /* ナビゲーションボタン */
-        .nav-button {
-            display: inline-block;
-            padding: 10px 25px;
-            background-color: #34495e;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: 14px;
-            transition: background-color 0.3s ease;
-            margin-top: 20px;
-        }
-        
-        .nav-button:hover {
-            background-color: #2c3e50;
-        }
-        
-        /* フッター */
-        footer {
-            background-color: #2c3e50;
-            color: #bdc3c7;
-            padding: 40px 20px;
-            text-align: center;
-            margin-top: 50px;
-        }
-        
-        footer p {
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-        
-        footer .footer-links {
-            margin-bottom: 20px;
-        }
-        
-        footer a {
-            color: #bdc3c7;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 13px;
-            transition: color 0.3s ease;
-        }
-        
-        footer a:hover {
-            color: white;
-            text-decoration: underline;
-        }
-        
-        footer .copyright {
-            border-top: 1px solid #34495e;
-            padding-top: 20px;
-            font-size: 12px;
-            color: #95a5a6;
-        }
-    </style>
 </head>
 <body>
 
@@ -182,183 +37,159 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- メインコンテナ -->
     <div class="container">
         <div class="section">
-            <h2>西暦和暦換算表（過去30年分）</h2>
-            <p>以下の表は過去30年間の西暦と和暦の対照表です。ボタンをクリックしてイベントトラッキングをテストしてください。</p>
-            
+            <h2>西暦和暦対照表</h2>
+            <p>西暦と和暦の対照表です。過去30年分を掲載しています。</p>
+        </div>
+        
+        <div class="section">
+            <h3>対照表（1994年～2024年）</h3>
             <table>
                 <thead>
                     <tr>
                         <th>西暦</th>
                         <th>和暦</th>
-                        <th>年号</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>2026</td>
-                        <td>令和8年</td>
-                        <td>令和</td>
+                        <td>1994</td>
+                        <td>平成6年</td>
                     </tr>
                     <tr>
-                        <td>2025</td>
-                        <td>令和7年</td>
-                        <td>令和</td>
+                        <td>1995</td>
+                        <td>平成7年</td>
                     </tr>
                     <tr>
-                        <td>2024</td>
-                        <td>令和6年</td>
-                        <td>令和</td>
-                    </tr>
-                    <tr>
-                        <td>2023</td>
-                        <td>令和5年</td>
-                        <td>令和</td>
-                    </tr>
-                    <tr>
-                        <td>2022</td>
-                        <td>令和4年</td>
-                        <td>令和</td>
-                    </tr>
-                    <tr>
-                        <td>2021</td>
-                        <td>令和3年</td>
-                        <td>令和</td>
-                    </tr>
-                    <tr>
-                        <td>2020</td>
-                        <td>令和2年</td>
-                        <td>令和</td>
-                    </tr>
-                    <tr>
-                        <td>2019</td>
-                        <td>令和元年 / 平成31年</td>
-                        <td>令和 / 平成</td>
-                    </tr>
-                    <tr>
-                        <td>2018</td>
-                        <td>平成30年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2017</td>
-                        <td>平成29年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2016</td>
-                        <td>平成28年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2015</td>
-                        <td>平成27年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2014</td>
-                        <td>平成26年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2013</td>
-                        <td>平成25年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2012</td>
-                        <td>平成24年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2011</td>
-                        <td>平成23年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2010</td>
-                        <td>平成22年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2009</td>
-                        <td>平成21年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2008</td>
-                        <td>平成20年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2007</td>
-                        <td>平成19年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2006</td>
-                        <td>平成18年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2005</td>
-                        <td>平成17年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2004</td>
-                        <td>平成16年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2003</td>
-                        <td>平成15年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2002</td>
-                        <td>平成14年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2001</td>
-                        <td>平成13年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>2000</td>
-                        <td>平成12年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>1999</td>
-                        <td>平成11年</td>
-                        <td>平成</td>
-                    </tr>
-                    <tr>
-                        <td>1998</td>
-                        <td>平成10年</td>
-                        <td>平成</td>
+                        <td>1996</td>
+                        <td>平成8年</td>
                     </tr>
                     <tr>
                         <td>1997</td>
                         <td>平成9年</td>
-                        <td>平成</td>
+                    </tr>
+                    <tr>
+                        <td>1998</td>
+                        <td>平成10年</td>
+                    </tr>
+                    <tr>
+                        <td>1999</td>
+                        <td>平成11年</td>
+                    </tr>
+                    <tr>
+                        <td>2000</td>
+                        <td>平成12年</td>
+                    </tr>
+                    <tr>
+                        <td>2001</td>
+                        <td>平成13年</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>平成14年</td>
+                    </tr>
+                    <tr>
+                        <td>2003</td>
+                        <td>平成15年</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>平成16年</td>
+                    </tr>
+                    <tr>
+                        <td>2005</td>
+                        <td>平成17年</td>
+                    </tr>
+                    <tr>
+                        <td>2006</td>
+                        <td>平成18年</td>
+                    </tr>
+                    <tr>
+                        <td>2007</td>
+                        <td>平成19年</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>平成20年</td>
+                    </tr>
+                    <tr>
+                        <td>2009</td>
+                        <td>平成21年</td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>平成22年</td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>平成23年</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>平成24年</td>
+                    </tr>
+                    <tr>
+                        <td>2013</td>
+                        <td>平成25年</td>
+                    </tr>
+                    <tr>
+                        <td>2014</td>
+                        <td>平成26年</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>平成27年</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>平成28年</td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>平成29年</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>平成30年</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>令和1年（平成31年）</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>令和2年</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>令和3年</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>令和4年</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>令和5年</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>令和6年</td>
                     </tr>
                 </tbody>
             </table>
-            
-            <a href="content.html" class="nav-button" data-event="landing_to_content">和暦の歴史を学ぶ →</a>
         </div>
+        
+        <a href="pages/content.html" class="nav-button" data-event="index_to_content">詳細ページへ →</a>
     </div>
     
     <!-- フッター -->
     <footer>
         <p>西暦和暦対照表 - Google Tag Manager & Google Analytics 4 検証用サイト</p>
         <div class="footer-links">
-            <a href="site-policy.html" data-event="footer_site_policy">サイトポリシー</a>
-            <a href="sitemap.html" data-event="footer_sitemap">サイトマップ</a>
-            <a href="privacy-policy.html" data-event="footer_privacy">個人情報保護方針</a>
-            <a href="accessibility-policy.html" data-event="footer_accessibility">アクセシビリティ方針</a>
+            <a href="pages/site-policy.html" data-event="footer_site_policy">サイトポリシー</a>
+            <a href="pages/sitemap.html" data-event="footer_sitemap">サイトマップ</a>
+            <a href="pages/privacy-policy.html" data-event="footer_privacy">個人情報保護方針</a>
+            <a href="pages/accessibility-policy.html" data-event="footer_accessibility">アクセシビリティ方針</a>
         </div>
         <div class="copyright">
             <p>&copy; 2026 GTM GA4 Test Site. All rights reserved.</p>
