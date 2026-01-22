@@ -61,3 +61,35 @@ Gemfile.lock
 # Environment variables
 .env
 .env.local
+
+# ===== BOT関連 =====
+bot.py
+*.log
+__pycache__/
+.env
+
+# ===== Python =====
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+.Python
+
+# ===== IDE・エディタ =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===== OS =====
+Thumbs.db
+.DS_Store
+
+# ===== 開発用ファイル =====
+*.tmp
+*.temp
+test_*.py
